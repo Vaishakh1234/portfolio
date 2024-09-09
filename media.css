@@ -1,0 +1,421 @@
+@media (max-width :1200px){
+    .container{
+        max-width: 1000px;
+    }
+
+    html{
+        font-size: 18px;
+    }
+  
+.home__left .home__img{
+    height:300px;
+    width: 290px;
+ 
+}
+
+.home__right{
+   padding-left:60px;
+}
+
+.home__right .home__title{
+    line-height: 3.4rem;
+    font-size: 3rem;
+}
+
+.home__right .home__subTitle{
+    line-height: 1.5rem;
+}
+
+/* /home section */
+
+.aboutSection{
+     padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.about .about__title{
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.about .about__subTitle{
+    padding-right: 200px;
+}
+.about__imgBox .about__img{
+    width: 320px;
+   
+}
+.about .about__content{
+  gap: 60px;
+}
+
+.about__contentBox .about__contentDescription{
+    font-size: 1rem;
+}
+
+/* about section */
+
+/* education  section */
+
+.educationSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.education .education__title{
+    font-size: 2.6rem;
+    line-height: 4rem;
+
+}
+.education .education__subTitle{
+    padding-right: 200px;
+    margin-top: -10px;
+}
+.education__item{
+    padding-right: 100px;
+}
+
+
+/* /education section */
+
+/* service section */
+
+.serviceSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.service .service__title{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 30px;
+}
+.service .service__subTitle{
+    padding-left: 40px;
+    padding-right: 200px;
+    margin-bottom: 60px;
+}
+
+.service__item i{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.service__item .service__itemTitle{
+    font-size: 1.5rem;
+    line-height: 1;
+
+}
+.service__item p{
+    font-size: 1rem;
+    line-height:1.3;
+}
+
+
+/* /service section */
+
+/* contact section */
+
+.contactSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact .contact__title{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 30px;
+}
+.contact .contact__hy{
+    font-size: 3rem;
+  
+}
+.contact .contact__subTitle{
+    padding-left: 40px;
+    padding-right: 200px;
+    margin-bottom: 40px;
+}
+
+.contact__inputBox input ,.contact__inputBox textarea{
+    width: 100%;
+    margin-top: 16px;
+    padding: 20px;
+    border-radius: 14px;
+    outline: none;
+    border: 2px solid black;
+}
+
+
+    
+}
+@media (max-width :1000px){
+    .container{
+        max-width: 800px;
+    }
+
+.navbar .nav__items{
+   position: absolute;
+   display: flex;
+   flex-direction: column; 
+   background-color: rgb(59, 51, 51);
+   width: 300PX;
+   padding: 20px;
+   top: 60px;
+   right: 0;
+   display: none;
+   
+}
+.navbar .nav__icons{
+    display: none;
+}
+.navbar .ham-btn{
+   display: block;
+}
+
+.home{
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__left .home__img{
+   height: 600px;
+   width: 650px;
+   margin-bottom: 20px;
+ 
+}
+
+/* about section */
+
+ .about__content{
+    flex-direction: column;
+    align-items: center;
+ }
+
+.about .about__title{
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.about .about__subTitle{
+    padding-right: 0px;
+}
+.about__imgBox .about__img{
+    width: 600px;
+    height: 600px;
+}
+.about .about__content{
+  gap: 60px;
+ 
+}
+.about__contentBox{
+  width: 600px;
+  margin: auto;
+}
+.about__contentBox .about__contentDescription{
+    font-size: 1rem;
+    
+}
+
+/* about section */
+
+/* service section */
+
+.serviceSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.service .service__title{
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.service .service__subTitle{
+    padding-right:0px;
+}
+
+.service .service__item{
+    padding: 10px 16px;
+}
+
+.service__item i{
+    font-size: 1.3rem;
+}
+.service__item .service__itemTitle{
+    font-size: 1rem;
+  
+}
+.service__item p{
+    font-size: .7rem;
+    line-height: 1.5
+}
+
+
+/* service section */
+
+.education .education__subTitle{
+  
+    padding-right: 0px;
+}
+
+/* contact section */
+
+.contactSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact .contact__title{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 20px;
+
+}
+.contact .contact__hy{
+    font-size: 3rem;
+  
+}
+.contact .contact__subTitle{
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.contact__details{
+    gap: 20px;
+}
+
+.contact__form .contact__formTop{
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.contact__inputBox input ,.contact__inputBox textarea{
+    width: 100%;
+    margin-top: 16px;
+    padding: 15px;
+    border-radius: 14px;
+    outline: none;
+    border: 2px solid black;
+
+}
+.contact__inputBox input::placeholder,.contact__inputBox textarea::placeholder{
+   font-size: 16px;
+}
+
+
+/* /contact section */
+
+  
+    
+}
+
+@media (max-width :740px){
+
+.container {
+    padding: 20px;
+}
+/* home section */
+
+.homeSection{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-image: var(--mainBg);
+}
+.home{
+    max-width: 100%;
+    align-items: center;
+    
+}
+
+.home__left .home__img{
+    width: 100%;
+}
+
+.home__right{
+   padding-left:0px;
+   margin-top: 12px;
+   display: flex;
+   justify-content: center;
+    border: 8px solid green;
+
+}
+
+/* /home section */
+
+.about__imgBox .about__img{
+    width: 100%;
+    max-height: 500px;
+ 
+}
+.about__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid  var(--textWhite);
+}
+.about__content .about__contentBox{
+    max-width: 100%;
+}
+
+/* /about section */
+
+.education .education__title{
+    font-size: 2rem;
+    line-height: 1.4;
+  
+}
+
+
+/* service section */
+
+.service__itemBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.service .service__item{
+    max-width: 450px;
+    background-color: #070707;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all .8s;
+    outline: none;
+}
+.service .service__item:hover{
+   outline: 2px solid rgb(196, 240, 0);
+}
+.service__item i{
+    font-size: 2rem;
+    color:rgb(196, 240, 0);
+    margin-bottom: 25px;
+}
+.service__item .service__itemTitle{
+   margin: 12px 0px;
+    color: rgba(255, 255, 255, 0.675);
+    font-size: 1.3rem;
+  
+}
+.service__item p{
+    margin-bottom: 0;
+    color: rgb(119, 119, 125);
+    font-size: .8rem;
+    line-height: 1.3
+}
+
+/* service section */
+
+/* cotact section */
+.contact__form .contact__formTop{
+    display: flex;
+   flex-direction: column;
+   
+}
+.contact__formTop .contact__inputBox{
+    width: 100%;
+ 
+}
+.contact__details{
+   flex-direction: column;
+}
+
+/* cotact section */
+    
+}
